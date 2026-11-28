@@ -1,0 +1,14 @@
+category,true_count,predicted_count,tp,fp,fn,precision,recall,f1
+lag_performance,26,14,14,0,12,1.0,0.54,0.7
+server_connection,19,21,17,4,2,0.81,0.89,0.85
+download_open_crash,17,9,5,4,12,0.56,0.29,0.38
+hackers_cheaters,14,18,12,6,2,0.67,0.86,0.75
+pricing_pay2win,11,8,7,1,4,0.88,0.64,0.74
+payment_missing_items,7,13,5,8,2,0.38,0.71,0.5
+matchmaking_balance,45,31,24,7,21,0.77,0.53,0.63
+bugs_glitches,17,19,14,5,3,0.74,0.82,0.78
+account_ban_loss,14,20,13,7,1,0.65,0.93,0.76
+content_events_changes,39,32,20,12,19,0.62,0.51,0.56
+device_optimization,9,2,2,0,7,1.0,0.22,0.36
+general_negative,49,40,25,15,24,0.62,0.51,0.56
+ALL (pooled),267,227,158,69,109,0.7,0.59,0.64
