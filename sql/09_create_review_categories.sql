@@ -1,0 +1,31 @@
+DROP TABLE IF EXISTS review_categories;
+
+CREATE TABLE review_categories (
+    review_id               TEXT PRIMARY KEY,
+    app                     TEXT,
+    language                TEXT,
+    score                   INT,
+    rating_group            TEXT,
+    content                 TEXT,
+    content_length          INT,
+    is_short                BOOLEAN,
+    thumbs_up_count         INT,
+    review_date             DATE,
+    review_month            DATE,
+    app_version             TEXT,
+    has_reply               BOOLEAN,
+    lag_performance         BOOLEAN,
+    server_connection       BOOLEAN,
+    download_open_crash     BOOLEAN,
+    hackers_cheaters        BOOLEAN,
+    pricing_pay2win         BOOLEAN,
+    payment_missing_items   BOOLEAN,
+    matchmaking_balance     BOOLEAN,
+    bugs_glitches           BOOLEAN,
+    account_ban_loss        BOOLEAN,
+    content_events_changes  BOOLEAN,
+    device_optimization     BOOLEAN,
+    general_negative        BOOLEAN,
+    n_specific              INT,
+    category_status         TEXT
+);
